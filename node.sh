@@ -13,5 +13,5 @@ docker compose up -d
 # Sleep
 sleep 10
 #Upload Pem File
-curl --upload-file ./var/lib/marzban-node/ssl_cert.pem https://transfer.sh/ssl_cert.pem
+curl --upload-file /var/lib/marzban-node/ssl_cert.pem https://transfer.sh/ssl_cert.pem
 #End
