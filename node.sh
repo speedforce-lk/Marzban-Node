@@ -10,8 +10,8 @@ cd Marzban-node
 curl -fsSL https://get.docker.com | sh
 #Run Docker
 docker compose up -d
-#Copy Pem File
-cp /var/lib/marzban-node/ssl_cert.pem /home/ubuntu/Marzban-node/ssl_cert.pem
+# Sleep
+sleep 10
 #Upload Pem File
-curl --upload-file ./ssl_cert.pem https://transfer.sh/ssl_cert.pem
+curl --upload-file ./var/lib/marzban-node/ssl_cert.pem https://transfer.sh/ssl_cert.pem
 #End
