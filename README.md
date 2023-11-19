@@ -4,6 +4,11 @@
 ```
 wget https://github.com/speedforce-lk/Marzban-Node/raw/main/node.sh; chmod 777 node.sh; ./node.sh
 ```
+Upload File 
+
+```
+cd /var/lib/marzban-node/
+```
 
 Iptable - Open 
 
